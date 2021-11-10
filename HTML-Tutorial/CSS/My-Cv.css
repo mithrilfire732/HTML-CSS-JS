@@ -1,0 +1,37 @@
+body{
+    font: normal normal normal 16pt/20pt Georgia, serif;
+    margin: 40px;
+}
+p{
+    margin: 0px;
+}
+
+table,tr,td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th{
+    line-height: 1.25em;
+    font-size: 1.25em;
+}
+#fav1, #fav2, #fav3 {
+    color:blue
+}
+.redBold {
+    color: red;
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.enlarge50{
+    font-size: 1.5em;
+}
+.topMargin25{
+    margin-top: 25px;
+}
+.lineHeightShort{
+    line-height: 20pt;
+    margin: 0;
+}
