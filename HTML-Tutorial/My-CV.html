@@ -6,8 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander CV</title>
     <link href="CSS/My-Cv.css" rel="stylesheet">
+    <script lang="JavaScript">
+        const helloWorld = () => {
+            console.log("Hello World!");
+        }
+        const button_click = () => {
+            console.log("The button was clicked!");
+            let ctrl = document.getElementById("name");
+            let value = ctrl.value;
+            alert(`Hello to you ${value}`);
+        }
+    </script>
 </head>
-<body>
+<body onload="helloWorld()">
+    <div>
+        <label>Enter your name:</label>
+        <input id="name" type="text">
+        <button onclick="button_click()">Click me!</button>
+    </div>
     <div class = "lineHeightShort">
         <span>Resume for</span>
         <span class="enlarge50">Alexander Kidd</span>
