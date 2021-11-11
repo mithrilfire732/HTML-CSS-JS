@@ -16,6 +16,10 @@ const loaded = () => {
     document.getElementById("ulast").value = user.lastname;
     document.getElementById("uphone").value = user.phone === null ? "" : user.phone;
     document.getElementById("uemail").value = user.email===null ? "":user.email;
-    document.getElementById("ureview").value = user.isReviewer;
-    document.getElementById("uadmin").value = user.isAdmin;
+    document.getElementById("ureview").value = user.isReviewer ? "Yes" : "No";
+    document.getElementById("uadmin").value = user.isAdmin ? "Yes" : "No";
+}
+
+const remove = () => {
+    console.log("Deleted user")
 }

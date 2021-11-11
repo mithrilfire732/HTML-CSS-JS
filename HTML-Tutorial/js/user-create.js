@@ -15,4 +15,6 @@ const save = () => {
     newUser.isReviewer = document.getElementById("ureview").checked;
     newUser.isAdmin = document.getElementById("uadmin").checked;
     console.log(newUser);
+
+    window.location.href = "user-list.html"
 }
